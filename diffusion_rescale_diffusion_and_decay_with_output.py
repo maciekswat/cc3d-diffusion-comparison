@@ -59,7 +59,7 @@ for t in range(steps):
     print(f"step={t} center={C[Nx//2, Ny//2]:.6f} probe={C[20,45]:.6f}")
     write_solution_to_file(C, t)
 
-fig = go.Figure(data=go.Heatmap(z=C, colorbar=dict(title="Concentration")))
-fig.update_layout(title=f"2D Diffusion (D={D}, k={k}, substeps={substeps})",
-                  xaxis_title="X", yaxis_title="Y", width=400, height=400)
-fig.show()
+# fig = go.Figure(data=go.Heatmap(z=C, colorbar=dict(title="Concentration")))
+# fig.update_layout(title=f"2D Diffusion (D={D}, k={k}, substeps={substeps})",
+#                   xaxis_title="X", yaxis_title="Y", width=400, height=400)
+# fig.show()

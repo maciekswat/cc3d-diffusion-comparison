@@ -39,7 +39,7 @@ conda activate diffusion-env
 
 ### Step 1 — Run CC3D simulation
 
-Open the included CC3D simulation in **CompuCell3D Player** and run it.
+Open the included CC3D simulation - ``cc3d-diffusion-comparison/cc3d-simulations/diffusion_2D_scale/diffusion_2D_scale.cc3d`` in **CompuCell3D Player** and run it.
 
 The CC3D steppable will automatically write results to:
 
